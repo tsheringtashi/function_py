@@ -1,0 +1,22 @@
+namea = "dorji"
+hta = 2
+wta = 80
+
+nameb = "dema"
+htb = 1.5
+wtb = 60
+
+namec = "dawa"
+htc = 1.9
+wtc = 120
+
+
+def bmi_calcualtor(name, ht, wt):
+    bmi = wt/(ht **2)
+    print("bmi: ")
+    print(bmi)
+    
+    if bmi < 25:
+        return name + " not overweight."
+    else:
+        return name+ " is overweight."
