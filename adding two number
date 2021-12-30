@@ -1,0 +1,7 @@
+def sum_numbers(a,b):
+    sum2 = a + b
+    return sum2
+    
+sum_number(2,6)
+
+
