@@ -1,0 +1,13 @@
+# function that calculates hourly rate times hours worked.
+
+def billing(rate, hours):
+  return print(str(rate * hours),  "dollars earned per month")
+  
+
+# Function that calculates hours per day times days in a month.
+
+def total_hours (HoursPerDay, DaysInMonth):
+  return HoursPerDay * DaysInMonth
+  
+  
+billing(100, total_hous(8, 30)
