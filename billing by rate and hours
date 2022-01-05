@@ -1,4 +1,5 @@
 # function that calculates hourly rate times hours worked.
+# function in function where for hours in billing is defined separately in total_hours.
 
 def billing(rate, hours):
   return print(str(rate * hours),  "dollars earned per month")
